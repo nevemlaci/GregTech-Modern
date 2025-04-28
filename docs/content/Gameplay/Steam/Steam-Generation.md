@@ -2,19 +2,28 @@
 Title: Generating Steam
 ---
 
+
 # Generating Steam
 
 ## Early game
 
-For early game steam generation you have two options:
+In the early game, you can generate Steam in Boilers. 
 
 ### Boilers
- * Liquid - allowing you to use hot liquids like lava. To heat up water and get steam.
- * Solid - uses coal to heat up the water.
-### Solar Boilers
- * generate steam from solar boilers _doesn't work at night_.
+* Liquid Boilers produce the most Steam, but they require liquid fuels such as Lava
+* Solid Boilers produce the less Steam, but solid fuel is easy to get
+* Solar Boilers produce a little more Steam than Solid Boilers, but they essentially work for free
+
+!!! note
+    Solar Boilers don't heat up at night.
+
+!!! danger
+    Do not put water into a heated boiler, it will explode!
+
+## Getting Water
 
 For water you can use a **primitive pump**
+
 ![Primitive water pump](./assets/p_water_pump.png)
 
 or use a water connection from any other mod.
@@ -26,6 +35,9 @@ After unlocking steel (using a primitive blast furnace) you will get access to t
 ## Large Boilers 
 
 Large boilers allow you to create massive amount of steam in the blink of an eye. A boiler can be constructed of many different GT materials, that will allow for different steam generation rates (_consult the table below_).
+
+!!! warning
+    Large Boilers are currently bugged and they don't produce the correct amount of Steam while burning the same amount of fuel!
 
 ## Base Generation Rates 
 
